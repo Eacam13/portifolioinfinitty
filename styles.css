@@ -1,0 +1,217 @@
+root {
+
+}
+
+body{
+    background-color: #02010e;
+    font-family: "Nunito";
+    color: white;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu_logo{
+    max-width: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.menu_logo:hover{
+    transform: scale(1.1);
+}
+
+.menu_lista{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    text-decoration: none;
+}
+
+.menu_lista_item{
+    color: #77e74b;
+    font-family: "Press Start 2P";
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 25px;
+}
+
+.menu_lista_item:hover{
+    color: #f8efef;
+}
+
+.menu_curriculo{
+    font-family: "Press Start 2P";
+    background-color: #4e8b2a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu_curriculo:hover{
+    background-color: #0a0a0a;
+}
+
+.home{
+    height: 100vh;
+    background-image: url("fundo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Press Start 2P";   
+}
+
+.home_infos{
+    background-color:  #26244290;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 90vh;
+}
+
+.home_img{
+    max-width: 200px;
+    background-color:  #26244289;
+    border: 2px solid white;
+    border-radius: 50% 20px;
+}
+
+.home_nome{
+    font-size: 35px;
+}
+.home_area{
+    font-size: 25px;
+    color:#E74B7F;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    gap: 40px;
+    min-height: 90vh;
+    border-top: 8px solid #328e0e;
+    margin: 100px auto;
+    border-bottom: 8px solid #328e0e;
+}
+
+.sobre_infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre_titulo{
+    font-size: 40px;
+    font-family: "Press Start 2P";
+    position: relative;
+}
+
+.sobre_titulo::before{
+    content: "";
+    background-image: url("python.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.sobre_texto{
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    gap: 300px;
+    min-height: 90vh;
+    border-top: 8px solid #328e0e;
+    margin: 40px auto;
+    
+    border-bottom: 8px solid #328e0e;
+}
+
+.cursos_titulo{
+    font-size: 100px;
+    font-family: "Press Start 2P";
+    word-wrap: break-word;
+    max-width: 390px;
+    
+    line-height: 1.8;
+}
+
+.cursos_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    background-color: #080808;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 700px;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px;
+}
+
+.curso_titulo{
+    color: #f1f1f7;
+    font-size: 24px;
+    
+}
+
+.curso_subtitulo{
+    color: #77e74b;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.curso_texto{
+    color: aliceblue;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.curso_duracao{
+    color: #4e8b2a;
+    font-size: 12px;
+}
+
+.divdiv{
+    display: flex;
+    align-items: center;
+    margin: -10px;
+    gap: 10px;
+}
+
+.div{
+    width: 10px;
+    height: 30px;
+    background: linear-gradient(90deg, #273b1c, #77e74b);
+    border-radius: 20px;
+}
